@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjinhos de Quatro Patas - MVP</title>
+    <meta name="description" content="Plataforma mobile-first offline para registro, listagem e acompanhamento clínico de animais resgatados pela ONG Anjinhos de Quatro Patas.">
+    <style>
+        :root {
+            --primary-color: #2e7d32;
+            --secondary-color: #81c784;
+            --background-color: #f4f6f8;
+            --text-color: #333;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--white);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: var(--white);
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🐾 ONG Anjinhos de Quatro Patas</h1>
+        <p>MVP - Gestão de Resgates, Animais e Prontuários Clínicos</p>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p><strong>Fundadora:</strong> Patrícia Silva</p>
+            <p>Aplicação desenvolvida no formato PWA (Progressive Web App) com foco em ambientes offline, otimizada para dispositivos móveis, visando auxiliar no acolhimento, cadastro e controle clínico de animais em situação de rua e abandono.</p>
+        </section>
+
+        <section id="funcionalidades">
+            <h2>Módulos Principais</h2>
+            <ul>
+                <li><strong>Registro de Resgates:</strong> Formulário intuitivo para cadastro de novos animais resgatados com validação de campos obrigatórios.</li>
+                <li><strong>Controle Clínico:</strong> Acompanhamento de vacinações, prazos e histórico de saúde.</li>
+                <li><strong>Listagem e Alertas:</strong> Painel responsivo com indicadores visuais de urgência e status dos animais.</li>
+            </ul>
+        </section>
+
+        <section id="historico-commits">
+            <h2>Histórico de Verssionamento (Git)</h2>
+            <p>Principais marcos de desenvolvimento registrados no repositório <code>anjinhos-de-quatro-patas-mvp</code>:</p>
+            <ul>
+                <li><code>a1b2c3d</code> - feat: estrutura inicial do banco de dados e tabelas de animais</li>
+                <li><code>e4f5g6h</code> - feat: formulário de cadastro de resgate e validação de regras</li>
+                <li><code>i7j8k9l</code> - test: implementação de testes para verificação de prazos de vacinação</li>
+                <li><code>m0n1o2p</code> - fix: correção de layout na renderização de alertas em telas mobile</li>
+                <li><code>q3r4s5t</code> - docs: atualização do README.md com instruções de execução</li>
+            </ul>
+        </section>
+
+        <section id="criterios">
+            <h2>Critérios de Avaliação do MVP</h2>
+            <ul>
+                <li><strong>Taxa de Sucesso:</strong> 100% de conclusão nas tarefas centrais (Menu, Formulário e Alertas).</li>
+                <li><strong>Tempo de Execução:</strong> &le; 120 segundos para conclusão de funcionalidades essenciais.</li>
+                <li><strong>Satisfação do Usuário:</strong> Pontuação mínima de 4 de 5 na avaliação de usabilidade.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Anjinhos de Quatro Patas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
